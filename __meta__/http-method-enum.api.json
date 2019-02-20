@@ -1,0 +1,268 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.0.18",
+    "schemaVersion": 1000
+  },
+  "kind": "Package",
+  "canonicalReference": "http-method-enum",
+  "docComment": "",
+  "name": "http-method-enum",
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "",
+      "name": "",
+      "members": [
+        {
+          "kind": "Enum",
+          "canonicalReference": "(HTTPMethod:enum)",
+          "docComment": "/**\n * HTTP request methods.\n *\n * HTTP defines a set of request methods to indicate the desired action to be performed for a given resource. Although they can also be nouns, these request methods are sometimes referred as HTTP verbs. Each of them implements a different semantic, but some common features are shared by a group of them: e.g. a request method can be safe, idempotent, or cacheable.\n *\n * @public\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare enum "
+            },
+            {
+              "kind": "Reference",
+              "text": "HTTPMethod"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "HTTPMethod",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "CONNECT",
+              "docComment": "/**\n * The `CONNECT` method establishes a tunnel to the server identified by the target resource.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "CONNECT"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"CONNECT\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "CONNECT",
+              "initializerTokenRange": {
+                "startIndex": 2,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "DELETE",
+              "docComment": "/**\n * The `DELETE` method deletes the specified resource.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "DELETE"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"DELETE\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "DELETE",
+              "initializerTokenRange": {
+                "startIndex": 2,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "GET",
+              "docComment": "/**\n * The `GET` method requests a representation of the specified resource. Requests using GET should only retrieve data.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "GET"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"GET\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "GET",
+              "initializerTokenRange": {
+                "startIndex": 2,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "HEAD",
+              "docComment": "/**\n * The `HEAD` method asks for a response identical to that of a GET request, but without the response body.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "HEAD"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"HEAD\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "HEAD",
+              "initializerTokenRange": {
+                "startIndex": 2,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "OPTIONS",
+              "docComment": "/**\n * The `OPTIONS` method is used to describe the communication options for the target resource.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "OPTIONS"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"OPTIONS\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "OPTIONS",
+              "initializerTokenRange": {
+                "startIndex": 2,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "PATCH",
+              "docComment": "/**\n * The PATCH method is used to apply partial modifications to a resource.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "PATCH"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"PATCH\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PATCH",
+              "initializerTokenRange": {
+                "startIndex": 2,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "POST",
+              "docComment": "/**\n * The `POST` method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "POST"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"POST\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "POST",
+              "initializerTokenRange": {
+                "startIndex": 2,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "PUT",
+              "docComment": "/**\n * The `PUT` method replaces all current representations of the target resource with the request payload.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "PUT"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"PUT\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PUT",
+              "initializerTokenRange": {
+                "startIndex": 2,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "TRACE",
+              "docComment": "/**\n * The `TRACE` method performs a message loop-back test along the path to the target resource.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Reference",
+                  "text": "TRACE"
+                },
+                {
+                  "kind": "Content",
+                  "text": " = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"TRACE\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "TRACE",
+              "initializerTokenRange": {
+                "startIndex": 2,
+                "endIndex": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

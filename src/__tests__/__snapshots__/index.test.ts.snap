@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HTTPMethod 1`] = `
+Object {
+  "CONNECT": "CONNECT",
+  "DELETE": "DELETE",
+  "GET": "GET",
+  "HEAD": "HEAD",
+  "OPTIONS": "OPTIONS",
+  "PATCH": "PATCH",
+  "POST": "POST",
+  "PUT": "PUT",
+  "TRACE": "TRACE",
+}
+`;
