@@ -37,7 +37,7 @@
     "@pika/plugin-standard-pkg": "0.3.14",
     "@types/babel__core": "7.1.0",
     "@types/jest": "24.0.11",
-    "@types/node": "11.11.3",
+    "@types/node": "11.11.6",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "24.5.0",
     "babel-preset-slick": "7.0.4",
