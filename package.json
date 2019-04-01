@@ -48,7 +48,7 @@
     "jest-serializer-path": "0.1.15",
     "prettier": "1.16.4",
     "tsconfig-slick": "3.0.2",
-    "tslint": "5.14.0",
+    "tslint": "5.15.0",
     "tslint-slick": "5.0.0",
     "typescript": "3.4.1",
     "typescript-tslint-plugin": "0.3.1",
