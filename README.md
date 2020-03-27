@@ -27,7 +27,7 @@ ESNext / TypeScript:
 ```typescript
 import { HTTPMethod } from 'http-method-enum'
 
-if ((res.method = HTTPMethod.GET)) {
+if (res.method === HTTPMethod.GET) {
   // ...
 }
 ```
