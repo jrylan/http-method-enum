@@ -50,7 +50,7 @@
     "tsconfig-slick": "3.0.2",
     "tslint": "5.16.0",
     "tslint-slick": "5.0.0",
-    "typescript": "3.4.4",
+    "typescript": "3.8.3",
     "typescript-tslint-plugin": "0.3.1",
     "weak": "1.0.1"
   },
